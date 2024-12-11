@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>?????? - ????? ?????? ????????</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="???? ???????">
+            </div>
+            <ul class="nav-links">
+                <li><a href="store.html">??????</a></li>
+                <li><a href="profile.html">???? ??????</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="store-container">
+            <h1>??????</h1>
+            <div class="product-grid">
+                <!-- ???? 1 -->
+                <div class="product">
+                    <img src="lam.jpg" alt="????? 1">
+                    <h3>????? ??????</h3>
+                    <p class="price">$150</p>
+                    <button class="buy-btn">????</button>
+                </div>
+                <!-- ???? 2 -->
+                <div class="product">
+                    <img src="fer.jpg" alt="????? 2">
+                    <h3>????? ????????</h3>
+                    <p class="price">$150</p>
+                    <button class="buy-btn">????</button>
+                </div>
+                <!-- ???? 3 -->
+                <div class="product">
+                    <img src="vila.jpg" alt="????">
+                    <h3>???? ????</h3>
+                    <p class="price">$250</p>
+                    <button class="buy-btn">????</button>
+                </div>
+                <!-- ???? 4 -->
+                <div class="product">
+                    <img src="moto.jpg" alt="????? ?????">
+                    <h3>????? ?????</h3>
+                    <p class="price">$100</p>
+                    <button class="buy-btn">????</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>????? ???? </p>
+        <a href="https://discord.gg/perfectrp" class="discord-button">Discord</a>
+    </footer>
+</body>
+</html>
